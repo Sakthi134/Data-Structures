@@ -1,4 +1,4 @@
-"""from random import randint
+from random import randint
 array=list(map(int,input().split()))
 def Qsort(array, low, high):
     if (low < high):
@@ -19,7 +19,7 @@ def Qsort(array, low, high):
     else:
       return array
 n = len(array)
-print(Qsort(array, 0, n-1))"""
+print(Qsort(array, 0, n-1))
 
 
 import random
